@@ -1,0 +1,187 @@
+#searchbar {
+    /* margin: auto; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    position: relative;
+    width: 50%;
+    height: 30px;
+    display: inline-block;
+}
+
+#searchbutton {
+    width: 80px;
+    height: 35px;
+    font-size: 12pt;
+    text-align: center;
+    display: inline-block;
+}
+
+#leftside {
+    /* float: left; */
+    margin-left: 50px;
+    width: 125vh;
+}
+
+#rightside {
+    margin-left: 25px;
+}
+
+#searchbar {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#player {
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 125vh;
+}
+
+#video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    padding-left: 0px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+img {
+    width: 200px;
+}
+
+.rvideo {
+    display: flex;
+}
+
+.rvinfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.rvtitle {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.rvuser {
+    padding-bottom: 5px;
+}
+
+.vidinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.specvidinfo {
+    justify-self: end;
+}
+
+#profilepic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    font-family: Arial;
+}
+
+.uploader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.profinfo {
+    padding-left: 10px;
+}
+
+.subs {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.prof {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#subscribe {
+    background-color: red;
+    font-weight: bold;
+    font-size: 15pt;
+    color: white;
+    width: 145px;
+    height: 45px;
+    border-radius: 3%;
+    border: none;
+    overflow: hidden;
+    outline:none;
+    cursor: pointer;
+}
+
+label {
+    color: grey;
+    font-size: 10pt;
+}
+
+i {
+    color: grey;
+}
+
+#addwatchlater {
+    color: grey;
+    font-size: 12pt;
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#flag {
+    color: grey;
+    font-size: 12pt;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#description {
+    width: 125vh;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 12pt;
+    font-family: Arial;
+    color: darkslategrey;
+}
+
+.uvdv {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#structure {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
