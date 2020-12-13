@@ -2,6 +2,8 @@
 
 Project Done by Mark Nourallah, Zacharia Bayram, Bassem Bahsoun
 
+Also included is the sql file
+
 Video for the youtube simulator were to big to place in the file, so therefore i removed them.
 
 I uploaded a a full demo of the project on my onedrive which you can access from here.
